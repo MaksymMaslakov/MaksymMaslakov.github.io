@@ -2,10 +2,9 @@ body{
 
 }
 .container{
-	margin-top: 20px;
+	margin: 20px auto 0;
 	display: flex;
 	justify-content: space-around;
-	// padding: 0 15px;
 	max-width: $break-lg;
 
 	@media(max-width: $break-md){
@@ -25,37 +24,17 @@ body{
 	width: 100%;
 }
 .triangle{
-	// background: #fff;
 	margin: 0;
 	display: block;
 	width: 0;
 	height: 0;
-	// position: absolute;
-	// bottom: -20vh;
 	border-bottom: 20vh solid transparent;
-	// border-top: 0px solid transparent;
-	// border-right: 0px solid transparent;
 	border-left: 120vw solid #fff;
-
-	// @media screen and (max-width: $break-lg){
-	// 	border-left: 97vw solid #fff;
-	// }
-	// // @media screen and (max-width: $break-md){
-	// // 	// bottom: -170px;
-	// // 	// border-bottom: 150px solid transparent;
-	// //
-	// // 	border-left: 97vw solid #fff;
-	// // }
-	// @media screen and (max-width: $break-sm){
-	// 	// bottom: -90px;
-	// 	// border-bottom: 70px solid transparent;
-	// 	border-left: 94vw solid #fff;
-	// }
-
 }
 
 .headline{
 	text-align: center;
+	padding: 0 15px;
 	h2{
 		color: $primary-black;
 		font-size: 2rem;

@@ -205,14 +205,14 @@ a {
         text-align: right; }
         #about .art--2011 .year:after {
           top: 14px;
-          right: -47px; }
+          right: -51px; }
     #about .art--2013 .year {
       text-align: right; }
       #about .art--2013 .year:after {
         width: 45px;
         height: 45px;
         top: 4px;
-        right: -57px; }
+        right: -62px; }
     #about .art--2012, #about .art--2014 {
       text-align: left;
       right: 0;
@@ -221,7 +221,7 @@ a {
       padding-left: 15px; }
       #about .art--2012 .year:after, #about .art--2014 .year:after {
         top: 14px;
-        left: -26px; }
+        left: -30px; }
     #about .art--2014 p {
       margin-bottom: 230px; }
   @media (max-width: 720px) {
