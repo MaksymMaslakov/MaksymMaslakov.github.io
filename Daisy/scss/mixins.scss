@@ -1,0 +1,88 @@
+@mixin icon-mixin($width, $bg, $bord-px, $bord-color, $position, $top, $left){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: $width;
+	height: $width;
+	position: $position;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	border: $bord-px solid $bord-color;
+	background: $bg;
+	z-index: 100;
+	top: $top;
+	left: $left;
+}
+
+@mixin coverdiv{
+   position: absolute;
+   top:0;
+   left:0;
+   width: 100%;
+   height: 100%;
+}
+
+@mixin rotate($degrees) {
+    -webkit-transform: rotate($degrees);
+    -moz-transform: rotate($degrees);
+    -ms-transform: rotate($degrees);
+    -o-transform: rotate($degrees);
+    transform: rotate($degrees);
+}
+
+@mixin hexagon-mix($height, $border-px, $bg, $border-color){
+	position: relative;
+	width: 1.75*$height;
+	box-sizing: content-box;
+	background: $bg;
+	z-index: 10;
+
+	&__content{
+		height: $height;
+		padding: 0 18px;
+		border-left: $border-px solid $border-color;
+		border-right: $border-px solid $border-color;
+	}
+
+	&:after, &:before{
+		content: '';
+		@include coverdiv;
+		width: ((1.75*$height) - (2*$border-px));
+		background: $bg;
+		border-left: $border-px solid $border-color;
+		border-right: $border-px solid $border-color;
+		z-index: -1;
+	}
+
+	&:after{
+		@include rotate(60deg);
+	}
+
+	&:before{
+		@include rotate(-60deg);
+	}
+}
+
+@mixin clic-effect{
+	&:active {
+	    outline: 0;
+	    color: #fff;
+      animation: effect_dylan 1s ease-out;
+    }
+}
+
+@keyframes effect_dylan {
+  50% {
+    transform: scale(1.5, 1.5);
+    opacity: 0;
+  }
+  99% {
+    transform: scale(0.001, 0.001);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.001, 0.001);
+    opacity: 1;
+  }
+}

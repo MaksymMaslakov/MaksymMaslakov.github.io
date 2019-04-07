@@ -1,0 +1,43 @@
+////////////////////////////////----FONTS----//////////////////////////////////
+@font-face {
+	font-family: Gotham Pro Bold;
+	src: url("./fonts/Gotham Pro Bold.ttf") format('truetype');
+}
+@font-face {
+	font-family: PFEncoreSansPro-Bold;
+	src: url("./fonts/PFEncoreSansPro-Bold.otf");
+}
+@font-face {
+	font-family: PFEncoreSansPro-Medium;
+	src: url("./fonts/PFEncoreSansPro-Medium.otf");
+}
+@font-face {
+	font-family: PFEncoreSansPro-Light;
+	src: url("./fonts/PFEncoreSansPro-Light.otf");
+}
+@font-face {
+	font-family: PFEncoreSansPro-Thin;
+	src: url("./fonts/PFEncoreSansPro-Thin.otf");
+}
+
+$gotham: 'Gotham Pro Bold';
+$pfe-bold: PFEncoreSansPro-Bold;
+$pfe-medium: PFEncoreSansPro-Medium;
+$pfe-light: PFEncoreSansPro-Light;
+$pfe-thin: PFEncoreSansPro-Thin;
+////////////////////////////////----COLORS----//////////////////////////////////
+
+$red:	#fc635e;
+$pink:	lighten($red, 10%);
+$gray: 	#868686;
+$gray-color: #adadad;
+$gray-d: darken($gray, 10%);
+$gray-bg: lighten($gray, 40%);
+
+////////////////////////////////----BRAEK-POINTS----////////////////////////////
+$break-lg: 940px;
+$break-md: 700px;
+$break-sm: 600px;
+$break-ex: 420px;
+
+////////////////////////////////----SOME-VARS----////////////////////////////

@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Daisy</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script>
+
+	</script>
+
+</head>
+<body>
+	<section id="home">
+		<div class="topnav">
+			<img class="logo" src="./img/logo.png">
+			<div class="navbar" id="myNavbar">
+				<a class="burger" href="javascript:void(0);"  onclick="respNav()">
+					<i class="fa fa-bars"></i>
+				</a>
+				<a href="#about">About</a>
+				<a href="#portfolio">Portfolio</a>
+				<a href="#services">Services</a>
+				<a href="#contact">Contact</a>
+			</div>
+		</div>
+		<div class="flex-container">
+			<span class="line"></span>
+				<h1><span class="red">Clients</span> in your business</h1>
+			<span class="line"></span>
+		</div>
+		<p>Your Clientson the internet. Learn how to recive them.</p>
+		<button class="btn" type="button" name="button">I want clients</button>
+		<div class="wrap-mouse">
+			<span id="mouse-icon"></span>
+			<div id="dashed-line"></div>
+		</div>
+		<a class="arrow" href="#recive" onclick="scrollMenu('#recive')">
+			<i class="fa fa-arrow-down" aria-hidden="true"></i>
+		</a>
+
+
+	</section>
+
+	<section id="recive">
+		<div class="head-titel">
+			<h2 class="">What can <span class="red">you receive?</span></h2>
+			<p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusantium, odit.</p>
+		</div>
+		<div class="flex-container">
+			<div class="item">
+				<div class="hexagon">
+					<div class="hexagon__content"><span id="jet-icon"></span></div>
+				</div>
+				<h3 class="titel">Clients</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusantium, odit.</p>
+			</div>
+			<div class="item">
+				<div class="hexagon active">
+					<div class="hexagon__content"><span id="desc-icon"></span></div>
+				</div>
+				<h3 class="titel">Branding</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusantium, odit.</p>
+			</div>
+			<div class="item">
+				<div class="hexagon">
+					<div class="hexagon__content"><span id="radio-icon"></span></div>
+				</div>
+				<h3 class="titel">Marketing</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusantium, odit.</p>
+			</div>
+			<div class="item">
+				<div class="hexagon">
+					<div class="hexagon__content"><span id="horn-icon"></span></div>
+				</div>
+				<h3 class="titel">ADV.</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusantium, odit.</p>
+			</div>
+		</div>
+
+		<a class="arrow" href="#expand" onclick="scrollMenu('#expand')">
+			<i class="fa fa-arrow-down" aria-hidden="true"></i>
+		</a>
+	</section>
+
+	<section id="expand">
+		<div class="border flex-container">
+			<h2 class="quote"><span class="red">Expand</span> your business</h2>
+			<button class="btn">Join Us</button>
+		</div>
+		<a class="arrow" href="#process" onclick="scrollMenu('#process')">
+			<i class="fa fa-arrow-down" aria-hidden="true"></i>
+		</a>
+	</section>
+
+	<section id="process">
+
+		<div class="head-titel">
+			<h2>Our <span class="red">process</span></h2>
+			<p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusantium, odit.</p>
+		</div>
+
+		<div class="container">
+			<div class="hexagon hexagon__1">
+				<div class="hexagon__1__content">
+					<span class="step">Step<span class="red">1</span></span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, ab.</p>
+					<span class="icon">
+						<i id="lamp-icon"></i>
+					</span>
+				</div>
+			</div>
+
+			<div class="hexagon hexagon__2">
+				<div class="hexagon__2__content">
+					<span class="step">Step<span class="red">2</span></span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, ab.</p>
+					<span class="icon">
+						<i id="desc-sm-icon"></i>
+					</span>
+				</div>
+			</div>
+
+			<div class="hexagon hexagon__3">
+				<div class="hexagon__3__content">
+					<span class="step">Step<span class="red">3</span></span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, ab.</p>
+					<span class="icon">
+						<i id="gear-mind-icon"></i>
+					</span>
+				</div>
+			</div>
+
+			<div class="hexagon hexagon__4">
+				<div class="hexagon__4__content">
+					<span class="step">Step<span class="red">4</span></span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, ab.</p>
+					<span class="another-icon">
+						<i id="signal-good-icon"></i>
+					</span>
+					<span class="icon">
+						<i id="jet-icon-red"></i>
+					</span>
+				</div>
+			</div>
+
+			<div class="hexagon hexagon__photo">
+				<div class="hexagon__photo__content">
+
+				</div>
+				<span id="border-line">
+					<i></i>
+				</span>
+			</div>
+		</div>
+
+		<a class="arrow bg-white" href="#works" onclick="scrollMenu('#works')">
+			<i class="fa fa-arrow-down" aria-hidden="true"></i>
+		</a>
+	</section>
+
+	<section id="works">
+		<div class="head-titel">
+			<h2>What do <span class="red">we do?</span></h2>
+		</div>
+		<div class="block">
+			<div class="flex-container">
+				<article class="description">
+					<h1 class="titel">Landing pages</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, earum commodi dolor nobis, est tempora temporibus deserunt asperiores sapiente repellendus, non dolores nesciunt fugit inventore? Doloremque, consequatur! Nisi, esse, aspernatur!</p>
+					<button class="btn">More detiles</button>
+				</article>
+				<div class="img-block landing">
+					<img src="./img/Large Devices.png" alt="">
+				</div>
+			</div>
+			<a class="arrow" href="#advertising" onclick="scrollMenu('#advertising')">
+				<i class="fa fa-arrow-down" aria-hidden="true"></i>
+			</a>
+		</div>
+
+		<div class="bg-white" id="advertising">
+			<div class="flex-container">
+				<div class="img-block advertising">
+					<img  src="./img/MacBook Pro.png" alt="">
+				</div>
+				<article class="description">
+					<h1 class="titel">Advertising</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus cumque reprehenderit, provident necessitatibus neque, dolore at quidem? Enim aspernatur illo optio, tenetur dolore facilis eum omnis neque explicabo quisquam perferendis!</p>
+					<button class="btn">More detiles</button>
+				</article>
+			</div>
+			<a class="arrow" href="#marketing-kit" onclick="scrollMenu('#marketing-kit')">
+				<i class="fa fa-arrow-down" aria-hidden="true"></i>
+			</a>
+		</div>
+
+		<div class="block" id="marketing-kit">
+			<div class="flex-container">
+				<article class="description">
+					<h1 class="titel">Marketing kit</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, debitis quam soluta quas distinctio sint illum, provident eius. Magnam ducimus labore possimus recusandae similique beatae, nostrum! Autem enim similique dolor.</p>
+					<button class="btn">More detiles</button>
+				</article>
+				<div class="img-block marketing">
+					<img  src="./img/book.png" alt="">
+				</div>
+			</div>
+			<a class="arrow" href="#portfolio"  onclick="scrollMenu('#portfolio')">
+				<i class="fa fa-arrow-down" aria-hidden="true"></i>
+			</a>
+		</div>
+	</section>
+
+	<section id="portfolio">
+		<div class="head-titel">
+			<h2>Portfolio</h2>
+		</div>
+
+		<div class="porf-nav flex-container">
+			<a class="link red" href="#">All</a>
+			<span>/</span>
+			<a class="link red" href="#">Entertainment</a>
+			<span>/</span>
+			<a class="link red" href="#">sport</a>
+			<span>/</span>
+			<a class="link red" href="#">Business</a>
+			<span>/</span>
+			<a class="link red" href="#">Bulding</a>
+		</div>
+
+		<div class="portfolio flex-container">
+
+				<a href="#" class="item item__bikes">
+					<img src="./img/portf-bikes.jpg" alt="Mountain bikes">
+
+					<div class="content">
+						<h2 class="titel">Mountain bikes</h2>
+						<span class="plus"></span>
+					</div>
+				</a>
+
+				<a href="#" class="item  item__paints">
+					<img src="./img/portf-paints.jpg" alt="Paints">
+
+					<div class="content">
+						<h2 class="titel">Paints</h2>
+						<span class="plus"></span>
+					</div>
+				</a>
+
+				<a href="#" class="item  item__bus">
+					<img src="./img/portf-bus.jpg" alt="Bus">
+
+					<div class="content">
+						<h2 class="titel">Bus</h2>
+						<span class="plus"></span>
+					</div>
+				</a>
+
+				<a href="#" class="item  item__boxes">
+					<img src="./img/portf-boxs.jpg" alt="Boxes">
+
+					<div class="content">
+						<h2 class="titel">Boxes</h2>
+						<span class="plus"></span>
+					</div>
+				</a>
+
+				<a href="#" class="item  item__flyers">
+					<img src="./img/portf-flyers.jpg" alt="Flyers">
+
+					<div class="content">
+						<h2 class="titel">Flyers</h2>
+						<span class="plus"></span>
+					</div>
+				</a>
+
+				<a href="#" class="item  item__cars">
+					<img src="./img/portf-cars.jpg" alt="Cars">
+
+					<div class="content">
+						<h2 class="titel">Cars</h2>
+						<span class="plus"></span>
+					</div>
+				</a>
+		</div>
+
+		<button class="btn" type="button" name="button">I want landing page</button>
+
+		<a class="arrow" href="#team" onclick="scrollMenu('#team')">
+			<i class="fa fa-arrow-down" aria-hidden="true"></i>
+		</a>
+	</section>
+
+	<section id="team">
+		<div class="head-titel">
+			<h2>Our <span class="red">team</span></h2>
+		</div>
+
+		<div class="container flex-container">
+			<div class="item flex-container">
+				<div class="hexagon flex-container">
+					<div class="face face__1"></div>
+				</div>
+				<span class="name"><span class="red">Tomothy</span> Bowman</span>
+				<span class="profesion">Marketing</span>
+				<div class="networks flex-container">
+					<a class="icon" href="#">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+					<a class="icon" href="#">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+					</a>
+					<a class="icon" href="#">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+
+			<div class="item flex-container">
+				<div class="hexagon flex-container">
+					<div class="face face__2"></div>
+				</div>
+				<span class="name"><span class="red">Steve</span> Tracy</span>
+				<span class="profesion">CEO</span>
+				<div class="networks flex-container">
+					<a class="icon" href="#">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+					<a class="icon" href="#">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+					</a>
+					<a class="icon" href="#">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+
+			<div class="item flex-container">
+				<div class="hexagon flex-container">
+					<div class="face face__3"></div>
+				</div>
+				<span class="name"><span class="red">Hellen</span> Johns</span>
+				<span class="profesion">Clients</span>
+				<div class="networks flex-container">
+					<a class="icon" href="#">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+					<a class="icon" href="#">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+					</a>
+					<a class="icon" href="#">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<a class="arrow" href="#feedback" onclick="scrollMenu('#feedback')">
+			<i class="fa fa-arrow-down" aria-hidden="true"></i>
+		</a>
+	</section>
+
+	<section id="feedback">
+		<div class="flex-container">
+			<div class="hexagon-icon">
+				<div class="hexagon-icon__content flex-container">
+					<i id="quotes-icon"></i>
+				</div>
+			</div>
+		</div>
+
+		<div class="flex-container" id="slider-content">
+			<!-- <div class="containr"> -->
+				<div class="slide-item flex-container">
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quidem repellendus atque eos temporibus placeat libero dolores fugit quis quisquam tenetur odio amet, rem aliquam inventore illum blanditiis id. Impedit. <button class="btn more">more</button></p>
+					<div class="resp flex-container">
+
+						<div class="hexagon flex-container">
+							<div class="face face__1"></div>
+						</div>
+
+						<div class="box">
+							<span class="name"><span class="red">Tomothy</span> Bowman</span>
+							<span class="profesion">Marketing</span>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="slide-item flex-container">
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum officia, natus consequuntur, omnis, nobis dignissimos ratione nam aspernatur quos facilis error minus rerum at placeat doloremque porro, itaque numquam illum!</p>
+					<div class="resp flex-container">
+
+						<div class="hexagon flex-container">
+							<div class="face face__2"></div>
+						</div>
+
+						<div class="box">
+							<span class="name"><span class="red">Steve</span> Tracy</span>
+							<span class="profesion">CEO</span>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="slide-item flex-container showing">
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate accusamus praesentium eos harum aut cum, quaerat ratione repudiandae ipsa labore, illo consequuntur voluptatibus aspernatur explicabo quod delectus, possimus sunt ipsum.</p>
+					<div class="resp flex-container">
+
+						<div class="hexagon flex-container">
+							<div class="face face__3"></div>
+						</div>
+
+						<div class="box">
+							<span class="name"><span class="red">Hellen</span> Johns</span>
+							<span class="profesion">Clients</span>
+						</div>
+
+					</div>
+				</div>
+			<!-- </div> -->
+		</div>
+
+		<div class="arrow-box">
+			<button  id="arrow-left" href="javascript:void(0);"	onclick="showPrev()"></button>
+			<button  id="arrow-right"	onclick="showNext()"></button>
+		</div>
+
+		<div class="address flex-container">
+			<div class="hexagon-address">
+				<div class="hexagon-address__content flex-container">
+					<h1 class="name">Daisy</h1>
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="map">
+
+	</section>
+
+	<section id="footer" class="flex-container">
+		<img class="logo" src="./img/logo.png" alt="">
+	</section>
+
+
+
+<script>
+/////////////////////////////function for NAVBAR//////////////////////////////
+	function respNav() {
+			var x = document.getElementById("myNavbar");
+			if (x.className === "navbar") {
+				x.className += " responsive";
+			} else {
+				x.className = "navbar";
+		}
+	}
+/////////////////////////////functions for SLIDER//////////////////////////////
+	function showPrev(){
+		var items = document.getElementsByClassName("slide-item");
+
+		// console.log(items.length);
+
+		for(let i = 0; i < items.length; i++){
+			arr = items[i].className.split(' ');
+			// console.log(arr);
+			if(~arr.indexOf('showing')){
+				arr.splice(arr.indexOf('showing'),1);
+				items[i].className = arr.join(' ');
+
+
+
+				if(i == 0){
+					items[items.length-1].className = arr.concat('showing').join(' ');
+					break;
+				}else{
+					items[i-1].className  =  arr.concat('showing').join(' ');
+					break;
+				}
+			}
+		}
+	}
+
+	function showNext(){
+		var items = document.getElementsByClassName("slide-item");
+
+		// console.log(items.length);
+
+		for(let i = 0; i < items.length; i++){
+			arr = items[i].className.split(' ');
+			// console.log(arr);
+			if(~arr.indexOf('showing')){
+				arr.splice(arr.indexOf('showing'),1);
+				items[i].className = arr.join(' ');
+
+				items[(i+1)%items.length].className = arr.concat('showing').join(' ');
+				break;
+
+			}
+		}
+	}
+
+/////////////////////////////offset animation function//////////////////////////////////
+	function anim(duration) {
+		var temp;
+
+		return function(sel) {
+			cancelAnimationFrame(temp);
+			var start = performance.now();
+			var from = window.pageYOffset || document.documentElement.scrollTop,
+			to = document.querySelector(sel).getBoundingClientRect().top;
+			requestAnimationFrame(function step(timestamp) {
+				var progress = (timestamp - start) / duration;
+				1 <= progress && (progress = 1);
+				window.scrollTo(0, from + to * progress | 0);
+				1 > progress && (temp = requestAnimationFrame(step))
+			})
+		}
+	};
+	var scrollMenu = anim(500);
+
+</script>
+</body>
+</html>
